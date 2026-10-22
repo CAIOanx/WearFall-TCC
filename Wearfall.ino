@@ -8,7 +8,7 @@
 
 const bool WIFI_ATIVADO = true;
 const char* AP_SSID = "WearFall_AP";
-const char* AP_SENHA = "wearfallof"; // minimo 8 caracteres
+const char* AP_SENHA = "wearfallof";
 const int PIN_BUZZER = 18;
 const int PIN_LED = 4;
 const int PIN_BOTAO = 19;
