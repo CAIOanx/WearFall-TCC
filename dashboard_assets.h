@@ -82,7 +82,7 @@ const char DASHBOARD_CSS[] PROGMEM = R"WFCSS(*{box-sizing:border-box;margin:0;pa
 .warning-text{color:#d82f2f}
 )WFCSS";
 
-const char DASHBOARD_JS[] PROGMEM = R"WFJS
+const char DASHBOARD_JS[] PROGMEM = R"WFJS(
 
 
 const API_BASE = location.protocol === "file:" ? "http://192.168.4.1" : location.origin;
